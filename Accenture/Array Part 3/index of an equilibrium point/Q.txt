@@ -1,1 +1,41 @@
-The function accepts an integer array ‘arr’ of size ‘n’ as its argument. The function needs to return the index of an equilibrium point in the array, where the sum of elements on the left of the index is equal to the sum of elements on the right of the index. If no equilibrium point exists, the function should return -1.
+🧩 Problem Description
+
+Given an array of integers, find an index such that the sum of elements to the left of that index is equal to the sum of elements to the right of that index.
+
+If such an index exists, return its position.
+If multiple equilibrium indices exist, return the first one.
+If no equilibrium index is found, return -1.
+
+📥 Input
+
+An integer array arr of size n
+
+📤 Output
+
+An integer representing the equilibrium index
+
+Return -1 if no such index exists
+
+📌 Constraints
+
+1 ≤ n ≤ 10⁵
+
+Array elements can be positive, negative, or zero
+
+Expected time complexity: O(n)
+
+🧪 Example
+
+Input:
+
+arr = [1, 3, 5, 2, 2]
+
+
+Output:
+
+2
+
+
+Explanation:
+Left sum of index 2 → 1 + 3 = 4
+Right sum of index 2 → 2 + 2 = 4
