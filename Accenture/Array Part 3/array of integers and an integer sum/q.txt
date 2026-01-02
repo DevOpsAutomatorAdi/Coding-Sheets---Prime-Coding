@@ -1,0 +1,36 @@
+Problem Description
+
+You are given an array of integers and a target sum.
+Your task is to find any one pair of numbers from the array whose sum is equal to the given target.
+
+📥 Input
+
+An integer array array containing n elements
+
+An integer target_sum
+
+📤 Output
+
+Return a tuple containing the two numbers whose sum equals target_sum
+
+If no such pair exists, return None
+
+📌 Constraints
+
+Each element in the array is an integer
+
+The array may contain positive or negative numbers
+
+Time complexity should be better than O(n²)
+
+🧪 Example
+
+Input:
+
+array = [1, 2, 3, 4, 6]
+target_sum = 8
+
+
+Output:
+
+(2, 6)
